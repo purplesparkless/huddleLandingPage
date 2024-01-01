@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+/* --------HEADER------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+header button{
+    width: 10%;
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 20px;
+    color: hsl(321, 100%, 78%);
+    background-color: #fff;
+}
+header a{
+    text-decoration: none;
+    color: hsl(321, 100%, 78%);
+}
+/* --------------BUILD------- */
+.build{
+    text-align: center;
+    padding-top: 6rem;
+    color: hsl(192, 100%, 9%) ;
+}
+h1{
+    font-weight: 700;
+    font-size:2.5rem;
+    font-family: 'Poppins';
+    padding-bottom: 2rem;
+}
+.build p{
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: large;
+  line-height: 1.2;
+}
+.build button{
+    margin-top: 2.5rem;
+    width: 20%;
+    background-color:  hsl(322, 100%, 66%);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 10px 4px hsl(207, 100%, 98%);
+    margin-bottom: 3rem;
+}
+.build button a{
+    text-decoration: none;
+    color: #fff;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    /* max-width: 100%;     */
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 3rem;
+}
+/* -----------COMMUNITY---------- */
+.community{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    color:  hsl(192, 100%, 9%);
+}
+.community .smallIcon{
+  margin-bottom: 0;
+}
+.community h2{
+    font-size: 6rem;
+}
+.community p{
+    font-size: larger;
+    text-align: center;
+}
+.grow, .flowing, .users{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ----------READY------------ */
+.ready{
+    text-align: center;
+    padding: 10rem;
+}
+.ready h2{
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+}
+.ready button{
+    background-color:hsl(322, 100%, 66%) ;
+    width: 30%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.2rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 10px 10px hsl(207, 100%, 98%);
+    /* box-shadow: 5px 5px 10px; */
+}
+.ready button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* ------------------- */
+/* ----FOOTER------ */
+/* ----------------------------- */
+.footer{
+    background-color:hsl(192, 100%, 9%) ;
+    margin-top: -0.5rem;
+    padding: 8rem 8rem 3rem 8rem;
+    display: flex;
+    gap: 20rem;
+}
+.footerFirst{
+    width: 60%;
+}
+.footerFirst > p, .footerSecond  p{
+    padding-top: 1.3rem;
+    padding-bottom: 1.8rem;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    /* width: 90%; */
+}
+.footerSecond p{
+    width: 80%;
+}
+.inline{
+    display: inline-block;
+    margin-left: 1rem;
+}
+.contact{
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    font-weight: bolder;
+}
+.subscribe{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.subscribe button{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    /* padding-top:5px ; */
+    font-size: 13px;
+    font-weight: 600;
+    /* height: 2rem; */
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subscribe input{
+    height: 2.5rem;
+    /* border-radius: 30px; */
+}
+.subscribe form{
+    border-radius: 8px;
+}
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a {
+    text-decoration: none;
+    color: hsl(192, 100%, 9%); 
+}
