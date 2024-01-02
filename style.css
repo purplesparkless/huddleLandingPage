@@ -123,6 +123,9 @@ h1{
     display: flex;
     gap: 20rem;
 }
+svg.huddle{
+    width: 50%;
+}
 .footerFirst{
     width: 60%;
 }
